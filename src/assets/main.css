@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand a {
+  padding: 0 0.75rem;
+}
+.navbar-item img {
+  max-height: 5rem;
+}
+.hero {
+  background-image: url("../assets/header.webp");
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    height: 35vh;
+  }
+}
