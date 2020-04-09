@@ -41,6 +41,13 @@ export default {
 </script>
 
 <style lang="scss">
+.hero {
+  background-image: url("../assets/header.webp");
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}
+
 .mt-2 {
   margin-top: 4rem;
   margin-bottom: 1.25rem !important;

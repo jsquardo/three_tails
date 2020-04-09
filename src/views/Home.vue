@@ -2,6 +2,7 @@
   <div class="home">
     <Navbar />
     <Hero />
+    <Slideshow />
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 // @ is an alias to /src
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Slideshow from "../components/Slideshow";
 
 export default {
   name: "Home",
   components: {
     Navbar,
-    Hero
+    Hero,
+    Slideshow
   }
 };
 </script>
