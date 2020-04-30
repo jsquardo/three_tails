@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gotu', sans-serif;
 }
 
 .mt-4 {
@@ -11,12 +12,84 @@ body {
     margin-bottom: 6rem;
 }
 
+// NAVBAR
+a.navbar-item:hover {
+    color: #1fab89;
+}
+
+a.navbar-item:focus {
+    color: #1fab89;
+}
+
+.navbar-link:hover {
+    color: #1fab89;
+}
+
+.navbar-link:focus {
+    color: #1fab89;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    color: black;
+    border-color: black;
+}
+
 .navbar-brand a {
     padding: 0 .75rem;
 }
 
 .navbar-item img {
-    max-height: 5rem;
+    max-height: 7rem;
+}
+
+.footer {
+    background-color: #f0ece6;
+    padding: 3rem 1.5rem 3rem;
+}
+
+.footer_sections {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left_footer_section {
+    width: 25vw;
+    font-size: 1.25rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.middle_footer_section {
+    width: 25vw;
+    padding-right: 2rem;
+}
+
+.right_footer_section {
+    width: 25vw;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.mt-1 {
+    margin-top: 1.5rem;
+}
+
+.bone {
+    height: 1.25rem;
+    margin-right: .5rem;
+}
+
+.list_flex {
+    display: flex;
+}
+
+.field:last-of-type {
+    margin-bottom: 0;
+}
+
+.mb_none {
+    margin-bottom: 0 !important;
 }
 
 

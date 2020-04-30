@@ -15,8 +15,8 @@
       <b-navbar-item href="#">
         Home
       </b-navbar-item>
-      <b-navbar-item href="#">
-        About Me
+      <b-navbar-item>
+        About
       </b-navbar-item>
       <b-navbar-item href="#">
         My Services
@@ -27,6 +27,7 @@
       <b-navbar-item href="#">
         Contact
       </b-navbar-item>
+      <!-- <router-view></router-view> -->
     </template>
 
     <template slot="end">

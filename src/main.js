@@ -1,17 +1,19 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
-import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
-import './assets/main.scss'
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import Buefy from 'buefy';
+import 'buefy/dist/buefy.css';
+import './assets/main.scss';
+import VCalendar from 'v-calendar';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
-Vue.use(Buefy)
+Vue.use(Buefy);
+Vue.use(VCalendar);
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+	router,
+	store,
+	render: (h) => h(App)
+}).$mount('#app');
