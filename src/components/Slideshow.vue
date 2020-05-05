@@ -1,22 +1,19 @@
 <template name="Slideshow">
-  <div class="container mt-4 mb-4">
-    <vue-flux
-      :options="options"
-      :images="images"
-      :transitions="transitions"
-    >
-      <template v-slot:preloader>
-        <flux-preloader />
-      </template>
+  <div class="inline mt-4 mb-4">
+    <div class="slideshow-styles">
+      <vue-flux :options="options" :images="images" :transitions="transitions">
+        <template v-slot:preloader>
+          <flux-preloader />
+        </template>
 
-      <!-- <template v-slot:pagination>
-        <flux-pagination />
-      </template> -->
-
-      <!-- <template v-slot:controls>
-        <flux-controls />
-      </template> -->
-    </vue-flux>
+        <!-- <template v-slot:pagination>
+          <flux-pagination />
+        </template>
+        <template v-slot:controls>
+          <flux-controls />
+        </template>-->
+      </vue-flux>
+    </div>
   </div>
 </template>
 
@@ -62,3 +59,6 @@ export default {
   })
 };
 </script>
+
+<style>
+</style>

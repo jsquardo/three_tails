@@ -2,8 +2,12 @@
   <div class="home">
     <Navbar />
     <Hero />
-    <Slideshow />
-    <Appointment />
+    <div class="container">
+      <div class="flex_it mt-2 mb-2">
+        <Slideshow />
+        <Appointment />
+      </div>
+    </div>
     <Footer />
   </div>
 </template>
@@ -13,7 +17,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Slideshow from "../components/Slideshow";
-import Appointment from '../components/Appointment'
+import Appointment from "../components/Appointment";
 import Footer from "../components/Footer";
 
 export default {
@@ -27,3 +31,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
+</style>

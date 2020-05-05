@@ -6,39 +6,27 @@
           <p>Available in the following neighberhoods:</p>
           <ul class="mt-1">
             <div class="list_flex">
-              <span><img
-                  class="bone"
-                  src="../assets/bone.svg"
-                  alt=""
-                ></span>
+              <span>
+                <img class="bone" src="../assets/bone.svg" alt />
+              </span>
               <li>Valdosta</li>
             </div>
             <div class="list_flex">
-              <span><img
-                  class="bone"
-                  src="../assets/bone.svg"
-                  alt=""
-                ></span>
+              <span>
+                <img class="bone" src="../assets/bone.svg" alt />
+              </span>
               <li>Lake Park</li>
             </div>
             <div class="list_flex">
-              <span><img
-                  class="bone"
-                  src="../assets/bone.svg"
-                  alt=""
-                ></span>
+              <span>
+                <img class="bone" src="../assets/bone.svg" alt />
+              </span>
               <li>Hahira</li>
             </div>
           </ul>
         </div>
         <div class="middle_footer_section">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt=""
-          >
-        </div>
-        <div class="right_footer_section">
-          <Form />
+          <img src="https://via.placeholder.com/400x300" alt />
         </div>
       </div>
     </div>
@@ -46,12 +34,7 @@
 </template>
 
 <script>
-import Form from "./Form";
-
 export default {
-  name: "Footer",
-  components: {
-    Form
-  }
+  name: "Footer"
 };
 </script>
