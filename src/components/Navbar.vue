@@ -16,15 +16,15 @@
       <b-navbar-item href="#">Home</b-navbar-item>
       <b-navbar-item>About</b-navbar-item>
       <b-navbar-item href="#">My Services</b-navbar-item>
-      <b-navbar-item href="#">Boarding Forms</b-navbar-item>
-      <b-navbar-item href="#">Contact</b-navbar-item>
+      <b-navbar-item><a href="https://www.pdfescape.com/open/?D66153AAAC93E1E0093B463B1448D82988EEDEE4EDFD388E" target="_blank">Important Files</a></b-navbar-item>
+      <b-navbar-item href="#">Contact</b-navbar-item> 
     </template>
   </b-navbar>
 </template>
 
 <script>
 export default {
-  name: "Navbar"
+  name: "Navbar",
 };
 </script>
 

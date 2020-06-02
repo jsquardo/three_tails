@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gotu&display=swap");
-
 body {
     font-family: "Gotu", sans-serif;
 }
@@ -14,6 +13,12 @@ body {
 }
 
 // NAVBAR
+.navbar-item {
+    a {
+        color: #4a4a4a;
+    }
+}
+
 a.navbar-item:hover {
     color: #1fab89;
 }
@@ -92,6 +97,7 @@ a.navbar-item:focus {
     margin-bottom: 0 !important;
 }
 
+
 /* .navbar-start {
     margin-left: auto;
     margin-right: none !important;
@@ -111,13 +117,13 @@ a.navbar-item:focus {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .form_width {
     width: 40%;
 }
 
 // .slide_section {
 // }
-
 @media (max-width: 1024px) {
     .left_footer_section {
         width: 25vw;
@@ -138,45 +144,36 @@ a.navbar-item:focus {
     .right_about_text {
         width: 100%;
     }
-
     .flex_it {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
     .slideshow-styles {
         width: 100vw;
         height: 100%;
     }
-
-    .vue-flux > .flux-image {
+    .vue-flux>.flux-image {
         width: 100% !important;
         background-size: 100vw !important;
         height: 100% !important;
     }
-
     .form_width {
         width: 100%;
         margin-top: 2rem;
     }
-
     .mt-4 {
         margin-top: 0;
     }
-
     .mb-4 {
         margin-bottom: 0;
     }
-
     .inline {
         width: 100vw;
     }
-
     .footer_sections {
         justify-content: space-between;
     }
-
     .left_footer_section {
         font-size: 0.75rem;
         width: 40vw;
