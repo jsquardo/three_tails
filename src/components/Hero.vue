@@ -42,9 +42,16 @@ export default {
 
 <style lang="scss">
 .hero {
-  background-image: url("../assets/header.webp");
+  /* background-image: url("../assets/header.jpg");
   background-size: cover;
+  background-position: center; */
+  background: url("../assets/header.jpg");
   background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
   height: 85vh;
 }
 
